@@ -1,6 +1,8 @@
 <?php
 	
-	namespace HtmlDomParser\AttributeHandler;
+	namespace HtmlDomParser;
+	
+	use DOMDocument;
 	
 	trait AttributeHandler
 	{

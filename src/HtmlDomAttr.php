@@ -1,6 +1,8 @@
 <?php
 	
-	namespace HtmlDomParser\HtmlDomAttr;
+	namespace HtmlDomParser;
+	
+	use DOMAttr;
 	
 	class HtmlDomAttr extends DOMAttr
 	{

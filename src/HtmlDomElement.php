@@ -1,6 +1,8 @@
 <?php
 	
-	namespace HtmlDomParser\HtmlDomElement;
+	namespace HtmlDomParser;
+	
+	use DOMElement;
 	
 	class HtmlDomElement extends DOMElement
 	{

@@ -16,6 +16,9 @@
   ],
   "minimum-stability": "stable",
   "autoload": {
-    "psr-4": {"HtmlDomParser\\": "src/"}
+    "psr-4": {"HtmlDomParser": "src/"}
+  },
+  "require": {
+    "ext-dom": "*"
   }
 }

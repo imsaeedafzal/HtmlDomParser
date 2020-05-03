@@ -2,9 +2,16 @@
 	
 	namespace HtmlDomParser;
 	
+	use DOMDocument;
+	use DOMXPath;
+	
+	require_once('src/AttributeHandler.php');
+	require_once('src/HtmlDomAttr.php');
+	require_once('src/HtmlDomElement.php');
+	
 	class HtmlDomParser
 	{
-		use HtmlDomParser\AttributeHandler;
+		use AttributeHandler;
 		
 		public static $disableLibXmlErrors = true;
 		public $document;
@@ -18,8 +25,8 @@
 			$this->document = new DOMDocument;
 			//$this->document = new DOMDocument('1.0', 'UTF-8');
 			
-			$this->document->registerNodeClass('DOMElement', 'HtmlDomElement');
-			$this->document->registerNodeClass('DOMAttr', 'HtmlDomAttr');
+			$this->document->registerNodeClass('DOMElement', 'HtmlDomParser\HtmlDomElement');
+			$this->document->registerNodeClass('DOMAttr', 'HtmlDomParser\HtmlDomAttr');
 		}
 		
 		// TODO: Need to check these functions getElementByClass(), getElementByTagNameNS()

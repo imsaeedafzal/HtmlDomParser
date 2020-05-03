@@ -2,9 +2,11 @@
 	
 	namespace HtmlDomParser;
 	
-	$html = file_get_contents('test.php');
+	require_once('src/HtmlDomParser.php');
 	
 	$dom = new HtmlDomParser();
+	
+	$html = file_get_contents('test.php');
 	$dom->loadHTML($html);
 	
 	$selector = '.find-class';
