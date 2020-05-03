@@ -7,14 +7,11 @@
     {
       "name": "Saeed Afzal",
       "email": "imsaeedafzal@gmail.com",
-      "homepage": "https://saeedafal.com",
-      "role": "Developer"
+      "homepage": "https://saeedafal.com"
     }
   ],
   "minimum-stability": "stable",
   "autoload": {
-    "psr-4": {
-      "HtmlDomParser\\": "src/"
-    }
+    "psr-4": {"HtmlDomParser\\": "src/"}
   }
 }
