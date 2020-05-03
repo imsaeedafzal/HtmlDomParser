@@ -5,10 +5,6 @@
 	use DOMDocument;
 	use DOMXPath;
 	
-	require_once('src/AttributeHandler.php');
-	require_once('src/HtmlDomAttr.php');
-	require_once('src/HtmlDomElement.php');
-	
 	class HtmlDomParser
 	{
 		use AttributeHandler;
