@@ -1,16 +1,26 @@
 {
-  "name": "imsaeedafzal/htmldomparser",
+  "name": "saeedafzal/htmldomparser",
   "description": "Html DOM Parser for PHP 7.1.x",
+  "keywords": [
+    "php", "domdocument", "parser", "htmlparser", "phpparser"
+  ],
+  "homepage": "https://github.com/imsaeedafzal/HtmlDomParser",
   "type": "library",
   "license": "GPL-3.0",
   "authors": [
     {
       "name": "Saeed Afzal",
-      "email": "imsaeedafzal@gmail.com"
+      "email": "imsaeedafzal@gmail.com",
+      "homepage": "https://saeedafzal.com"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {"HtmlDomParser\\": "src/"}
+  },
+  "extra": {
+    "branch-alias": {
+      "contribute": "1.0"
+    }
   }
 }
