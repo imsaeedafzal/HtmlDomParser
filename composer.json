@@ -14,13 +14,8 @@
       "homepage": "https://saeedafzal.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {"HtmlDomParser\\": "src/"}
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0"
-    }
   }
 }
