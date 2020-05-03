@@ -1,9 +1,7 @@
 {
   "name": "imsaeedafzal/htmldomparser",
-  "type": "library",
   "description": "Html DOM Parser for PHP 7.1.x",
-  "keywords": ["php","dom document", "parser", "htmlparser"],
-  "homepage": "https://github.com/imsaeedafzal/HtmlDomParser",
+  "type": "library",
   "license": "GPL-3.0",
   "authors": [
     {
