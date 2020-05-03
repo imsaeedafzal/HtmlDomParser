@@ -1,5 +1,7 @@
 <?php
 	
+	namespace HtmlDomParser\AttributeHandler;
+	
 	trait AttributeHandler
 	{
 		protected function elementOuterHtml(DOMDocument $dom, HtmlDomElement $element, string $html, bool $copyAttributes = false){

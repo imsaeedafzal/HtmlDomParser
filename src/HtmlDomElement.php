@@ -1,5 +1,7 @@
 <?php
 	
+	namespace HtmlDomParser\HtmlDomElement;
+	
 	class HtmlDomElement extends DOMElement
 	{
 		use AttributeHandler;

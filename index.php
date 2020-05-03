@@ -1,5 +1,6 @@
 <?php
-	require_once ('libs/HtmlDomParser.php');
+	
+	namespace HtmlDomParser;
 	
 	$html = file_get_contents('test.php');
 	

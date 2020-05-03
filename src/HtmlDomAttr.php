@@ -1,5 +1,7 @@
 <?php
 	
+	namespace HtmlDomParser\HtmlDomAttr;
+	
 	class HtmlDomAttr extends DOMAttr
 	{
 		public function value($value = null) {

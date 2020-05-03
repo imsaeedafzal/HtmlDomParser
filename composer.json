@@ -1,0 +1,30 @@
+{
+  "name": "imsaeedafzal/htmldomparser",
+  "description": "This library is useful to parse the html templates and override the elements as well.",
+  "keywords": [
+    "php", "domdocument", "parser", "htmlparser", "domparser"
+  ],
+  "homepage": "https://github.com/imsaeedafzal/HtmlDomParser",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Saeed Afzal",
+      "email": "imsaeedafzal@gmail.com",
+      "homepage": "https://saeedafal.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : ">=7.1.x"
+  },
+  "autoload": {
+    "psr-4": {
+      "HtmlDomParser\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "master": "1.0"
+    }
+  }
+}

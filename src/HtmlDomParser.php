@@ -1,11 +1,10 @@
 <?php
-	require_once('AttributeHandler.php');
-	require_once('HtmlDomElement.php');
-	require_once('HtmlDomAttr.php');
+	
+	namespace HtmlDomParser;
 	
 	class HtmlDomParser
 	{
-		use AttributeHandler;
+		use HtmlDomParser\AttributeHandler;
 		
 		public static $disableLibXmlErrors = true;
 		public $document;
