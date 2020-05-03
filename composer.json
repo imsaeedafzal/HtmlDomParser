@@ -2,7 +2,7 @@
   "name": "imsaeedafzal/htmldomparser",
   "type": "library",
   "description": "Html DOM Parser for PHP 7.1.x",
-  "keywords": ["php","domdocument", "parser", "htmlparser"],
+  "keywords": ["php","dom document", "parser", "htmlparser"],
   "homepage": "https://github.com/imsaeedafzal/HtmlDomParser",
   "license": "GPL-3.0",
   "authors": [
@@ -13,9 +13,7 @@
       "role": "Developer"
     }
   ],
-  "require": {
-    "php": ">=7.1.0"
-  },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "HtmlDomParser\\": "src"
