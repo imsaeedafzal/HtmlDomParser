@@ -1,7 +1,7 @@
 # HtmlDomParser
 This library is useful to parse the html templates and override the elements quickly. 
 
-* Key Features:*
+*Key Features:*
 - Helps to find the elements by class, id and element.
 - You can also find the elements by custom xPaths as well.
 - Get *innerHtml* content of any element same like you do in jQuery/JavaScript.
