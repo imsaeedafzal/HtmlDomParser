@@ -13,3 +13,5 @@ This library is useful to parse the html templates and override the elements qui
 - Copy the attributes inside when innerHtml content is replaced.
 - Supports the dirty bad/or dirty html templates too.
 - More features coming soon.
+
+*Note: The work is in progress. You all are welcome to contribute to make this library awesome.*
